@@ -1,0 +1,35 @@
+@import '~/assets/scss/partials/breakpoints';
+
+.vc {
+  // &-day,
+  // &-day-content,
+  // &-highlight {
+  //   width: 35px !important;
+  //   height: 32px !important;
+  // }
+
+  &-highlight-base-middle {
+    height: 100% !important;
+  }
+  &-highlight:not(.vc-highlight-base-middle),
+  &-day-content {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  &-container {
+    border: 0;
+    --rounded-full: 4px;
+    --indigo-200: #eaf2fe;
+    --indigo-700: #3282fd;
+    --indigo-600: #3282fd;
+  }
+
+  &-title {
+    color: #585d5f !important;
+  }
+
+  &-day {
+    font-weight: 400;
+    font-size: 14px !important;
+  }
+}

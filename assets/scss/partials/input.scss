@@ -1,0 +1,107 @@
+$icon-width: 40px;
+$border-radius: 4px;
+$border-color: #ced4da;
+
+.m-input {
+  margin-bottom: 30px;
+
+  input:disabled {
+    opacity: 0.5;
+  }
+
+  &,
+  select,
+  input,
+  textarea {
+    border-radius: $border-radius;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 1rem;
+    border: 0px;
+    padding: 0.75rem;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(50, 50, 93, 0.15),
+      0 1px 0 0 rgba(0, 0, 0, 0.02);
+    outline: none;
+    width: 100%;
+    appearance: none;
+    color: var(--text-color);
+    font-family: inherit !important;
+
+    &::placeholder {
+      color: #adb5bd;
+    }
+  }
+
+  &--has-icon {
+    input,
+    select {
+      padding-left: $icon-width + 2px;
+    }
+  }
+
+  &--has-append-text input {
+    appearance: textfield !important;
+    -moz-appearance: textfield !important;
+  }
+
+  &--v-classic {
+    input,
+    select,
+    textarea {
+      box-shadow: none;
+      border: 1px solid $border-color;
+
+      &:focus {
+        border-color: var(--primary);
+      }
+    }
+  }
+
+  &--sm input,
+  &--sm select {
+    font-size: 14px !important;
+  }
+
+  &__icon {
+    position: absolute;
+    width: $icon-width;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    color: #525f7f;
+    font-size: 1.1rem;
+  }
+
+  &__append-text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    min-width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    background: #f6f9fc;
+    color: #525f7f;
+    border: 1px solid $border-color;
+    font-size: 14px;
+    padding: 0 3px;
+  }
+}

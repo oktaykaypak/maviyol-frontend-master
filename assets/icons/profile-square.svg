@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/profil</title>
+    <defs>
+        <path d="M4,0 L259,0 C261.209139,-4.05812251e-16 263,1.790861 263,4 L263,1029 C263,1031.20914 261.209139,1033 259,1033 L4,1033 C1.790861,1033 2.705415e-16,1031.20914 0,1029 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <filter x="-9.5%" y="-1.9%" width="119.0%" height="104.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.196078431   0 0 0 0 0.364705882  0 0 0 0.01 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M2.5,4.16666667 L2.5,15.8333333 C2.5,16.75 3.24166667,17.5 4.16666667,17.5 L15.8333333,17.5 C16.75,17.5 17.5,16.75 17.5,15.8333333 L17.5,4.16666667 C17.5,3.25 16.75,2.5 15.8333333,2.5 L4.16666667,2.5 C3.24166667,2.5 2.5,3.25 2.5,4.16666667 Z M12.5,7.5 C12.5,8.88333333 11.3833333,10 10,10 C8.61666667,10 7.5,8.88333333 7.5,7.5 C7.5,6.11666667 8.61666667,5 10,5 C11.3833333,5 12.5,6.11666667 12.5,7.5 Z M5,14.1666667 C5,12.5 8.33333333,11.5833333 10,11.5833333 C11.6666667,11.5833333 15,12.5 15,14.1666667 L15,15 L5,15 L5,14.1666667 Z" id="path-3"></path>
+    </defs>
+    <g id="Maviyyo-Paneli" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1GÖSTERGE-PANELİ" transform="translate(-208.000000, -387.000000)">
+            <rect fill="#F6F9FC" x="0" y="0" width="1440" height="1637"></rect>
+            <g id="Profil_Sol-Menü" transform="translate(150.000000, 117.000000)">
+                <g id="Profil-Menü-Arka-Zemin" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="Menü-Genel" transform="translate(56.000000, 219.000000)">
+                    <g id="icon/action/account_box_24px" transform="translate(0.000000, 49.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g fill-rule="nonzero"></g>
+                        <g id="Group" mask="url(#mask-4)" fill="#172B4D">
+                            <g id="↳-Color">
+                                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "bp-scss": {
+    "prefix": "bp-scss",
+    "body": "@import '~/assets/scss/partials/breakpoints';",
+    "description": "retrieve the breakpoints mixin import line"
+  }
+}

@@ -1,0 +1,92 @@
+@import '~/assets/scss/partials/breakpoints';
+
+.auth-modal {
+  .m-modal__body {
+    max-width: 405px !important;
+  }
+
+  @include bp(mobile) {
+    .m-modal__body {
+      margin: 0 !important;
+      max-width: 100% !important;
+    }
+
+    &__content {
+      border-radius: 0 !important;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__close {
+      display: flex !important;
+    }
+  }
+
+  &__content {
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    color: var(--secondary);
+  }
+
+  &__close {
+    display: none;
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: 0.5rem;
+
+    img {
+      height: 16px;
+      width: 16px;
+    }
+  }
+
+  &__header {
+    background: #fff;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: rgba(136, 152, 170, 0.1);
+  }
+
+  &__auth-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    padding: 0.75rem 1rem !important;
+    font-weight: 600 !important;
+
+    &--facebook {
+      color: #507cc0 !important;
+    }
+
+    &--google {
+      color: #df4930 !important;
+    }
+
+    img {
+      height: 20px;
+      width: 20px;
+      margin-right: 5px;
+    }
+  }
+
+  &__body {
+    background: #f4f5f7;
+  }
+
+  &__form {
+    padding: 1.5rem;
+  }
+}

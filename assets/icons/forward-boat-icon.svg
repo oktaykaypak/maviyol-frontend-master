@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/tekne_ekle</title>
+    <defs>
+        <path d="M4,0 L259,0 C261.209139,-4.05812251e-16 263,1.790861 263,4 L263,1029 C263,1031.20914 261.209139,1033 259,1033 L4,1033 C1.790861,1033 2.705415e-16,1031.20914 0,1029 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <filter x="-9.5%" y="-1.9%" width="119.0%" height="104.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.196078431   0 0 0 0 0.364705882  0 0 0 0.01 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M16.6676375,17.5 C15.5926375,17.5 14.5176375,17.1583333 13.5509708,16.55 C13.4176375,16.4666667 13.2426375,16.4666667 13.1093042,16.55 C11.1843042,17.775 8.80930416,17.775 6.88430416,16.55 C6.75097083,16.4666667 6.57597083,16.4666667 6.4426375,16.55 C5.48430416,17.1583333 4.40930416,17.5 3.33430416,17.5 L2.50097083,17.5 C2.0426375,17.5 1.6676375,17.875 1.6676375,18.3333333 C1.6676375,18.7916667 2.0426375,19.1666667 2.50097083,19.1666667 L3.33430416,19.1666667 C4.48430416,19.1666667 5.6176375,18.875 6.6676375,18.3416667 C8.7676375,19.4166667 11.2343042,19.4166667 13.3343042,18.3416667 C14.3843042,18.8833333 15.5176375,19.1666667 16.6676375,19.1666667 L17.5009708,19.1666667 C17.9593042,19.1666667 18.3343042,18.7916667 18.3343042,18.3333333 C18.3343042,17.875 17.9593042,17.5 17.5009708,17.5 L16.6676375,17.5 Z M3.2926375,15.8333333 L3.33430416,15.8333333 C4.5176375,15.8333333 5.58430416,15.25 6.38430416,14.4666667 C6.5426375,14.3166667 6.80097083,14.3166667 6.95930416,14.4666667 C7.75097083,15.25 8.8176375,15.8333333 10.0009708,15.8333333 C11.1843042,15.8333333 12.2509708,15.25 13.0509708,14.4666667 C13.2093042,14.3083333 13.4593042,14.3083333 13.6259708,14.4666667 C14.4176375,15.25 15.4843042,15.8333333 16.6676375,15.8333333 L16.7093042,15.8333333 L18.2843042,10.2666667 C18.3509708,10.05 18.3343042,9.81666667 18.2343042,9.61666667 C18.1343042,9.41666667 17.9509708,9.26666667 17.7343042,9.2 L16.6676375,8.85 L16.6676375,5 C16.6676375,4.08333333 15.9176375,3.33333333 15.0009708,3.33333333 L12.5009708,3.33333333 L12.5009708,1.66666667 C12.5009708,1.20833333 12.1259708,0.833333333 11.6676375,0.833333333 L8.33430416,0.833333333 C7.87597083,0.833333333 7.50097083,1.20833333 7.50097083,1.66666667 L7.50097083,3.33333333 L5.00097083,3.33333333 C4.08430416,3.33333333 3.33430416,4.08333333 3.33430416,5 L3.33430416,8.85 L2.25930416,9.2 C2.0426375,9.26666667 1.85930416,9.41666667 1.75930416,9.61666667 C1.65930416,9.81666667 1.63430416,10.05 1.70930416,10.2666667 L3.2926375,15.8333333 Z M5.83430416,5 L14.1676375,5 C14.6259708,5 15.0009708,5.375 15.0009708,5.83333333 L15.0009708,8.30833333 L10.5176375,6.83333333 C10.1759708,6.725 9.8176375,6.725 9.47597083,6.83333333 L5.00097083,8.30833333 L5.00097083,5.83333333 C5.00097083,5.375 5.37597083,5 5.83430416,5 Z" id="path-3"></path>
+    </defs>
+    <g id="Maviyyo-Paneli" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1GÖSTERGE-PANELİ" transform="translate(-207.000000, -592.000000)">
+            <rect fill="#F6F9FC" x="0" y="0" width="1440" height="1637"></rect>
+            <g id="Profil_Sol-Menü" transform="translate(150.000000, 117.000000)">
+                <g id="Profil-Menü-Arka-Zemin" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="Menü-Genel" transform="translate(56.000000, 219.000000)">
+                    <g id="icon/maps/local_shipping_24px" transform="translate(0.000000, 256.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="icon/maps/directions_boat_24px" fill-rule="nonzero"></g>
+                        <g id="Group" mask="url(#mask-4)" fill="#172B4D">
+                            <g id="↳-Color">
+                                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

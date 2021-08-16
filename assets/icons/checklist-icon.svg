@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/Rezervasyonlarım</title>
+    <defs>
+        <path d="M4,0 L259,0 C261.209139,-4.05812251e-16 263,1.790861 263,4 L263,1029 C263,1031.20914 261.209139,1033 259,1033 L4,1033 C1.790861,1033 2.705415e-16,1031.20914 0,1029 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <filter x="-9.5%" y="-1.9%" width="119.0%" height="104.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.196078431   0 0 0 0 0.364705882  0 0 0 0.01 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M10.5864583,7.66979167 L2.253125,7.66979167 C1.79479167,7.66979167 1.41979167,8.04479167 1.41979167,8.503125 C1.41979167,8.96145833 1.79479167,9.33645833 2.253125,9.33645833 L10.5864583,9.33645833 C11.0447917,9.33645833 11.4197917,8.96145833 11.4197917,8.503125 C11.4197917,8.04479167 11.0447917,7.66979167 10.5864583,7.66979167 Z M10.5864583,4.33645833 L2.253125,4.33645833 C1.79479167,4.33645833 1.41979167,4.71145833 1.41979167,5.16979167 C1.41979167,5.628125 1.79479167,6.003125 2.253125,6.003125 L10.5864583,6.003125 C11.0447917,6.003125 11.4197917,5.628125 11.4197917,5.16979167 C11.4197917,4.71145833 11.0447917,4.33645833 10.5864583,4.33645833 Z M2.253125,12.6697917 L7.253125,12.6697917 C7.71145833,12.6697917 8.08645833,12.2947917 8.08645833,11.8364583 C8.08645833,11.378125 7.71145833,11.003125 7.253125,11.003125 L2.253125,11.003125 C1.79479167,11.003125 1.41979167,11.378125 1.41979167,11.8364583 C1.41979167,12.2947917 1.79479167,12.6697917 2.253125,12.6697917 Z M18.2614583,9.51145833 L18.3364583,9.58645833 C18.6614583,9.91145833 18.6614583,10.4364583 18.3364583,10.7614583 L13.6864583,15.4197917 C13.3614583,15.7447917 12.8364583,15.7447917 12.5114583,15.4197917 L9.93645833,12.8447917 C9.78041444,12.6890987 9.69272033,12.477723 9.69272033,12.2572917 C9.69272033,12.0368603 9.78041444,11.8254846 9.93645833,11.6697917 L10.0114583,11.5947917 C10.3364583,11.2697917 10.8614583,11.2697917 11.1864583,11.5947917 L13.103125,13.5114583 L17.0864583,9.51979167 C17.403125,9.18645833 17.9364583,9.18645833 18.2614583,9.51145833 L18.2614583,9.51145833 Z" id="path-3"></path>
+    </defs>
+    <g id="Maviyyo-Paneli" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1GÖSTERGE-PANELİ" transform="translate(-208.000000, -491.000000)">
+            <rect fill="#F6F9FC" x="0" y="0" width="1440" height="1637"></rect>
+            <g id="Profil_Sol-Menü" transform="translate(150.000000, 117.000000)">
+                <g id="Profil-Menü-Arka-Zemin" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="Menü-Genel" transform="translate(56.000000, 219.000000)">
+                    <g id="icon/av/playlist_add_check_24px" transform="translate(1.000000, 151.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g fill-rule="nonzero"></g>
+                        <g id="Group" mask="url(#mask-4)" fill="#172B4D">
+                            <g id="↳-Color">
+                                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

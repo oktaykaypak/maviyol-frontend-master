@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/ilanlar</title>
+    <defs>
+        <path d="M4,0 L259,0 C261.209139,-4.05812251e-16 263,1.790861 263,4 L263,1029 C263,1031.20914 261.209139,1033 259,1033 L4,1033 C1.790861,1033 2.705415e-16,1031.20914 0,1029 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <filter x="-9.5%" y="-1.9%" width="119.0%" height="104.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.196078431   0 0 0 0 0.364705882  0 0 0 0.01 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Maviyyo-Paneli" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1GÖSTERGE-PANELİ" transform="translate(-208.000000, -644.000000)">
+            <rect fill="#F6F9FC" x="0" y="0" width="1440" height="1637"></rect>
+            <g id="Profil_Sol-Menü" transform="translate(150.000000, 117.000000)">
+                <g id="Profil-Menü-Arka-Zemin" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="Menü-Genel" transform="translate(56.000000, 219.000000)">
+                    <g id="İlanlar" transform="translate(2.000000, 308.000000)" fill="#172B4D" fill-rule="nonzero">
+                        <g id="Duyuru">
+                            <path d="M18.033905,4.76562501 L18.033905,12.2845009 C19.203186,11.5642478 20,10.149259 20,8.52506291 C20,6.90069213 19.203186,5.48570331 18.033905,4.76562501 L18.033905,4.76562501 Z" id="Path"></path>
+                            <path d="M6.27609254,12.7904782 L6.27609254,4.25947289 L2.15499879,4.25947289 C0.966644297,4.25947289 0,5.36685544 0,6.72783839 L0,10.3221127 C0,11.6830957 0.966644297,12.7904782 2.15499879,12.7904782 L6.27609254,12.7904782 Z" id="Path"></path>
+                            <path d="M14.60495,0.203789172 L7.43621828,3.89873463 C7.44384766,3.94172957 7.44796754,3.9864723 7.44796754,4.03208895 L7.44796754,13.0178621 C7.44796754,13.0636535 7.44384766,13.1082215 7.43621828,13.1513912 L14.6047973,16.8461619 C14.8672485,16.9814387 15.1295471,17.0499511 15.3846741,17.0499511 C15.8128357,17.0499511 16.1976623,16.8540268 16.4678955,16.4981823 C16.7257691,16.1589416 16.86203,15.7012025 16.86203,15.1746015 L16.86203,1.87552434 C16.86203,0.77128774 16.254425,-2.84217094e-14 15.3846741,-2.84217094e-14 C15.1296997,-2.84217094e-14 14.8672485,0.0685123043 14.60495,0.203789172 Z" id="Path"></path>
+                            <path d="M2.15499879,14.1327601 C1.84356688,14.1327601 1.54251098,14.0824245 1.25656129,13.9904922 L1.90032961,17.6772232 C2.12570191,18.9681208 3.20251465,19.9790268 4.35165406,19.9790268 C5.53985594,19.9790268 6.50665281,18.8718191 6.50665281,17.5108362 L6.50665281,14.1439458 L6.48483277,14.1327601 L2.15499879,14.1327601 Z" id="Path"></path>
+                        </g>
+                    </g>
+                    <g id="Tekne-ekle" transform="translate(0.000000, 256.000000)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/favoriler</title>
+    <defs>
+        <path d="M4,0 L259,0 C261.209139,-4.05812251e-16 263,1.790861 263,4 L263,1029 C263,1031.20914 261.209139,1033 259,1033 L4,1033 C1.790861,1033 2.705415e-16,1031.20914 0,1029 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <filter x="-9.5%" y="-1.9%" width="119.0%" height="104.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.196078431   0 0 0 0 0.364705882  0 0 0 0.01 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Maviyyo-Paneli" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1GÖSTERGE-PANELİ" transform="translate(-207.000000, -537.000000)">
+            <rect fill="#F6F9FC" x="0" y="0" width="1440" height="1637"></rect>
+            <g id="Profil_Sol-Menü" transform="translate(150.000000, 117.000000)" fill-rule="nonzero">
+                <g id="Profil-Menü-Arka-Zemin">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="Menü-Genel" transform="translate(56.000000, 219.000000)" fill="#172B4D">
+                    <g id="heart-shape-silhouette" transform="translate(1.000000, 201.000000)">
+                        <path d="M17.7568719,1.5614439 C16.8538364,0.536122952 15.6062092,0.0236796537 14.0134302,0.0236796537 C13.5726517,0.0236796537 13.1227962,0.112547173 12.6643119,0.290195341 C12.2056409,0.467973814 11.7789449,0.707820559 11.3847097,1.00956184 C10.9899515,1.31121624 10.6507015,1.59449775 10.3661006,1.858972 C10.0818358,2.12353313 9.81157886,2.40468633 9.55566588,2.70221443 C9.29964084,2.40468633 9.02945859,2.12353313 8.74515649,1.858972 C8.46066762,1.59449775 8.12126822,1.31138998 7.72658473,1.00956184 C7.33197596,0.707690254 6.90535472,0.468017249 6.44679571,0.290195341 C5.98827406,0.112590607 5.53849327,0.0236796537 5.09771483,0.0236796537 C3.50504781,0.0236796537 2.25734597,0.536253257 1.35442252,1.5614439 C0.451499077,2.58654767 0,4.00842797 0,5.82721511 C0,6.38113861 0.0836731971,6.95169761 0.250683404,7.53845779 C0.417693612,8.12543513 0.608012781,8.62567327 0.821267371,9.03895501 C1.03448461,9.45219331 1.27627773,9.85535476 1.54645998,10.2480484 C1.81664223,10.6407855 2.01409603,10.9112972 2.13837314,11.060235 C2.26276232,11.2088687 2.36055537,11.3164566 2.43164023,11.3824775 L9.08638625,18.8478703 C9.21439877,18.9968081 9.37080041,19.0712987 9.55562853,19.0712987 C9.74045664,19.0712987 9.89697035,18.9968081 10.0249082,18.8481743 L16.669083,11.4074959 C18.2972737,9.51447876 19.1112944,7.65429829 19.1112944,5.82721511 C19.1112944,4.00842797 18.659758,2.58654767 17.7568719,1.5614439 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

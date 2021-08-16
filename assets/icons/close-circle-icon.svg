@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>çıkış</title>
+    <defs>
+        <path d="M4,0 L259,0 C261.209139,-4.05812251e-16 263,1.790861 263,4 L263,1029 C263,1031.20914 261.209139,1033 259,1033 L4,1033 C1.790861,1033 2.705415e-16,1031.20914 0,1029 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <filter x="-9.5%" y="-1.9%" width="119.0%" height="104.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0.196078431   0 0 0 0 0.364705882  0 0 0 0.01 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Maviyyo-Paneli" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1GÖSTERGE-PANELİ" transform="translate(-206.000000, -806.000000)" fill-rule="nonzero">
+            <g id="Profil_Sol-Menü" transform="translate(150.000000, 117.000000)">
+                <g id="Menü-Genel" transform="translate(56.000000, 219.000000)" fill="#172B4D">
+                    <g id="Çıkış" transform="translate(0.000000, 455.000000)">
+                        <g id="çıkış" transform="translate(0.000000, 15.000000)">
+                            <path d="M9.98571429,1.81188398e-13 C4.47071429,1.81188398e-13 1.81188398e-13,4.47214286 1.81188398e-13,9.98785714 C1.81188398e-13,15.5028571 4.47071429,19.975 9.98571429,19.975 C15.5035714,19.975 19.975,15.5021429 19.975,9.98785714 C19.975,4.47214286 15.5035714,1.81188398e-13 9.98571429,1.81188398e-13 Z M14.28,12.6921429 L12.6892857,14.2807143 C12.6892857,14.2807143 10.1728571,11.5807143 9.985,11.5807143 C9.8,11.5807143 7.28285714,14.2807143 7.28285714,14.2807143 L5.69142857,12.6921429 C5.69142857,12.6921429 8.39428571,10.2121429 8.39428571,9.99142857 C8.39428571,9.76714286 5.69142857,7.28642857 5.69142857,7.28642857 L7.28285714,5.69428571 C7.28285714,5.69428571 9.82071429,8.39571429 9.985,8.39571429 C10.1507143,8.39571429 12.6892857,5.69428571 12.6892857,5.69428571 L14.28,7.28642857 C14.28,7.28642857 11.5764286,9.80285714 11.5764286,9.99142857 C11.5764286,10.1707143 14.28,12.6921429 14.28,12.6921429 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
